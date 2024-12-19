@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Menu.module.css';
 
 interface MenuItem {
-  icon: React.ReactNode;
+  icon: string;
   label: string;
   isActive: boolean;
   onClick: () => void;
