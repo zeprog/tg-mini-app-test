@@ -1,0 +1,39 @@
+.info {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.infoHeader {
+  margin-left: 12px;
+  font-size: 18px;
+}
+
+.info-blocks {
+  display: grid;
+  width: 100%;
+  grid-template-columns: max-content 1fr max-content 1fr; /* 4 колонки: 2 для ключей и 2 для значений */
+  gap: 10px 20px; /* Горизонтальный и вертикальный отступ */
+}
+
+.info-block-key {
+  color: #8694A1;
+  justify-self: start; /* Выравнивание текста в первой колонке */
+}
+
+.info-block-value {
+  color: #fff;
+  justify-self: start; /* Выравнивание текста во второй колонке */
+}
+
+.waiting {
+  background: #2F3842;
+  color: #A6B8CC;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 5px 10px;
+  width: max-content;
+}

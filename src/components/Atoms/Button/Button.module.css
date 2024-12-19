@@ -1,0 +1,42 @@
+.gray {
+  background-color: rgba(65, 63, 64, 0.4);
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  border: 0;
+  outline: none;
+  font-size: 14px;
+  color: #fff;
+  padding: 5px 10px 5px 5px;
+  cursor: pointer;
+}
+
+.blue-small {
+  color: #fff;
+  background-color: #238BDA;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 0;
+  outline: none;
+}
+
+.blue-big {
+  color: #fff;
+  background-color: #238BDA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 8px;
+  outline: none;
+  font-size: 16px;
+  padding: 13px;
+  border: none;
+  border-radius: 8px;
+}

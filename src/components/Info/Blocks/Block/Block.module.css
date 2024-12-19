@@ -1,0 +1,31 @@
+.block {
+  padding: 10px;
+  font-size: 15px;
+  background-color: #212A33;
+  transition: background-color .3s;
+  border-radius: 0;
+}
+
+.block:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.blockColumns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blockColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.blockHash {
+  color: #fff;
+}
+
+.blockBy {
+  color: #8694A1;
+}

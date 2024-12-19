@@ -1,0 +1,34 @@
+.bottomMenu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #12161A;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 100;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #8694A1;
+  font-size: 12px;
+  transition: color 0.3s;
+  cursor: pointer;
+  justify-content: center;
+  gap: 5px;
+}
+
+.menuItem.active {
+  color: #42ADF5;
+}
+
+.menuItemIcon {
+  height: 24px;
+  margin-bottom: 4px;
+}

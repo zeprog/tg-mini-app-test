@@ -1,0 +1,12 @@
+.block-outline {
+  border: 1px solid #1F2931;
+  border-radius: 8px;
+  background: transparent;
+  padding: 15px 12px;
+}
+
+.block {
+  background: #212A33;
+  border-radius: 8px;
+  padding: 15px 12px;
+}
